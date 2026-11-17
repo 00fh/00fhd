@@ -1,6 +1,8 @@
 {
-  "class": "FeaturedBannersView",
-  "itemSize": "{263, 148}",
-  "itemCornerRadius": 10,
-  "banners": []
+  "banners" : [
+
+  ],
+  "class" : "FeaturedBannersView",
+  "itemCornerRadius" : 10,
+  "itemSize" : "{263, 148}"
 }
