@@ -46,7 +46,7 @@ const [owner, name] = repository.split("/");
 document.getElementById("title").textContent = name || repository;
 document.getElementById("address").textContent = source.replace(/^https?:[/][/]/, "").replace(/[/]+$/, "");
 document.getElementById("owner").textContent = "@" + owner;
-document.getElementById("open").href = "sileo://repository/add?url=" + encodeURIComponent(source);
+document.getElementById("open").href = "sileo://source/https://00fh.github.io/00fhd/" + encodeURIComponent(source);
 for (const image of document.querySelectorAll("img")) {
   image.addEventListener("error", () => { image.style.display = "none"; });
 }
