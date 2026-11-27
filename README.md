@@ -1,4 +1,4 @@
-# 00fh/packages
+# 00fh/00fh
 
 An APT source for jailbroken iOS, published with Apelin.
 
