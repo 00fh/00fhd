@@ -1,8 +1,8 @@
-# 00fh/packages
+# 00fh/00fhd
 
 An APT source for jailbroken iOS, published with Apelin.
 
-Add `https://00fh.github.io/packages/` in Irisin.
+Add `https://00fh.github.io/00fhd/` in Irisin.
 
 ## How it works
 
