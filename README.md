@@ -2,7 +2,7 @@
 
 An APT source for jailbroken iOS, published with Apelin.
 
-Add `https://00fh.github.io/00fhd/` in Irisin.
+Add `https://00fh.github.io/00fhd/` in sileo.
 
 ## How it works
 
