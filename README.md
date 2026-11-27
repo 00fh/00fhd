@@ -1,4 +1,4 @@
-# 00fh/00fhd
+# 00fh/packages
 
 An APT source for jailbroken iOS, published with Apelin.
 
@@ -10,7 +10,7 @@ Add `https://00fh.github.io/packages/` in Irisin.
   `<Package>_<Version>_<Architecture>.deb`. Apelin's Distribute… page
   publishes a release build here; a `.deb` pushed by hand works the same.
 - On every push to `main`, `.github/workflows/update-repository.yml` runs
-  `scripts/update-repository.sh`, which indexes `debs/` into `00fhd`,
+  `scripts/update-repository.sh`, which indexes `debs/` into `Packages`,
   `Packages.xz` and `Release`, and publishes the site to GitHub Pages.
   Never commit those indexes or `_site/`.
 - `depictions/<package id>/` holds a package's depiction, icon and
