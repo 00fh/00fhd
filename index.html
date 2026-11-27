@@ -46,7 +46,7 @@ const [owner, name] = repository.split("/");
 document.getElementById("title").textContent = name || repository;
 document.getElementById("address").textContent = source.replace(/^https?:[/][/]/, "").replace(/[/]+$/, "");
 document.getElementById("owner").textContent = "@" + owner;
-document.getElementById("open").href = "irisin://repository/add?url=" + encodeURIComponent(source);
+document.getElementById("open").href = "sileo://repository/add?url=" + encodeURIComponent(source);
 for (const image of document.querySelectorAll("img")) {
   image.addEventListener("error", () => { image.style.display = "none"; });
 }
