@@ -1,4 +1,4 @@
-# 00fh/00fhd
+# 00fh/FHD 
 
 An APT source for jailbroken iOS, published with Apelin.
 
